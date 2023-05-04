@@ -1,0 +1,344 @@
+[
+    {
+        "type": "issue",
+        "check_name": "name[casing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All names should start with an uppercase letter.",
+        "fingerprint": "188023298c217ccbe1a30a08a5894a5adf767b3a7df8ab1acf59d44a3005b844",
+        "location": {
+            "path": "handlers/main.yml",
+            "lines": {
+                "begin": 2
+            }
+        },
+        "content": {
+            "body": "Task/Handler: restart mysql"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "schema[meta]",
+        "categories": [
+            "core"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/schema/",
+        "severity": "major",
+        "description": "2.4 is not of type 'string'",
+        "fingerprint": "31a775b9f11d16e516462023fb32e767e517d4375ef3b9bd91af1da154a63a66",
+        "location": {
+            "path": "meta/main.yml",
+            "lines": {
+                "begin": 1
+            }
+        },
+        "content": {
+            "body": " Returned errors will not include exact line numbers, but they will mention\nthe schema name being used as a tag, like ``schema[playbook]``,\n``schema[tasks]``.\n\nThis rule is not skippable and stops further processing of the file.\n\nIf incorrect schema was picked, you might want to either:\n\n* move the file to standard location, so its file is detected correctly.\n* use ``kinds:`` option in linter config to help it pick correct file type.\n"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "eead672745fe02053440e83d0178c87a37de719bf90c7209485e6f568254f11f",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 3
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks variables.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "247ea6bdb3daf739cf84c2e09e7a5ddcf9c1e55e9197ce073706b4cc88967afe",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 6
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks setup-RedHat.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "d2d5bcd1ad7152848cbb21cc1ca1e5d430b3ee82720f378716651e208dec2c2d",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 9
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks setup-Debian.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "84daa798962abbccf5f395c458cbc951561b04119bcf52ca1b80d625a51d41de",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 12
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks setup-Archlinux.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "3208389c2f42cc043d4ca265502fb5b63b0f93afebc46e62da3ec9007a67ed12",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 22
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks configure.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "a66c3eabb8b3c8828111050300ebae870160b3c5bafc4832e33d267222e9d26b",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 23
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks secure-installation.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "2998fd0218c2e3383c1e1145bb94bb8227c7dc5cb2d26c02ff8aca27100a42e6",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 24
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks databases.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "44f3273bbb35309eba0ac22f88468ff1a50310461aed17c888ca0474d9b4488b",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 25
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks users.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "name[missing]",
+        "categories": [
+            "idiom"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/name/",
+        "severity": "major",
+        "description": "All tasks should be named.",
+        "fingerprint": "929a9e5cc682e82d2a4d7bee32a5ac9597969615c7fe44cce92aee0e0b872d49",
+        "location": {
+            "path": "tasks/main.yml",
+            "lines": {
+                "begin": 26
+            }
+        },
+        "content": {
+            "body": "Task/Handler: include_tasks replication.yml"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "ignore-errors",
+        "categories": [
+            "unpredictability"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/ignore-errors/",
+        "severity": "major",
+        "description": "Use failed_when and specify error conditions instead of using ignore_errors.",
+        "fingerprint": "64cd12d7bfbe498127481f750855bdb52d36e44aab3d4e59373ba4a70688cd15",
+        "location": {
+            "path": "tasks/replication.yml",
+            "lines": {
+                "begin": 38
+            }
+        },
+        "content": {
+            "body": "Task/Handler: Configure replication on the slave."
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "jinja[spacing]",
+        "categories": [
+            "formatting"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/jinja/",
+        "severity": "minor",
+        "description": "Jinja2 spacing could be improved: {{ mysql_root_hosts.stdout_lines|default([]) }} -> {{ mysql_root_hosts.stdout_lines | default([]) }}",
+        "fingerprint": "53fb4b9b04e92ceb6a7d24f67f991ca2ed307f550f2f929bdc5fcd575d64d55e",
+        "location": {
+            "path": "tasks/secure-installation.yml",
+            "lines": {
+                "begin": 42
+            }
+        },
+        "content": {
+            "body": "Jinja2 template rewrite recommendation: `{{ mysql_root_hosts.stdout_lines | default([]) }}`."
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "no-changed-when",
+        "categories": [
+            "command-shell",
+            "idempotency"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/no-changed-when/",
+        "severity": "major",
+        "description": "Commands should not change things if nothing needs doing.",
+        "fingerprint": "a5dab985a733ca174f0bfb438f14b5cf6d44a9ae48357a47caca106344fc281b",
+        "location": {
+            "path": "tasks/secure-installation.yml",
+            "lines": {
+                "begin": 42
+            }
+        },
+        "content": {
+            "body": "Task/Handler: Update MySQL root password for localhost root account (5.7.x)."
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "jinja[spacing]",
+        "categories": [
+            "formatting"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/jinja/",
+        "severity": "minor",
+        "description": "Jinja2 spacing could be improved: {{ mysql_root_hosts.stdout_lines|default([]) }} -> {{ mysql_root_hosts.stdout_lines | default([]) }}",
+        "fingerprint": "e753b7d920b8c004421be9481b61709f590906994eacfa81a4e3bc2da74f4f76",
+        "location": {
+            "path": "tasks/secure-installation.yml",
+            "lines": {
+                "begin": 53
+            }
+        },
+        "content": {
+            "body": "Jinja2 template rewrite recommendation: `{{ mysql_root_hosts.stdout_lines | default([]) }}`."
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "no-changed-when",
+        "categories": [
+            "command-shell",
+            "idempotency"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/no-changed-when/",
+        "severity": "major",
+        "description": "Commands should not change things if nothing needs doing.",
+        "fingerprint": "e0b924b55c2aba5614d1a76fbcca39d9eee770d17418bdaf68f8b3ffda19f2e7",
+        "location": {
+            "path": "tasks/secure-installation.yml",
+            "lines": {
+                "begin": 53
+            }
+        },
+        "content": {
+            "body": "Task/Handler: Update MySQL root password for localhost root account (< 5.7.x)."
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "jinja[spacing]",
+        "categories": [
+            "formatting"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/jinja/",
+        "severity": "minor",
+        "description": "Jinja2 spacing could be improved: {{ mysql_anonymous_hosts.stdout_lines|default([]) }} -> {{ mysql_anonymous_hosts.stdout_lines | default([]) }}",
+        "fingerprint": "0ddc9b56a793d7646f295b33f2a13c452d5fffe3822e80d7ef9615494604addb",
+        "location": {
+            "path": "tasks/secure-installation.yml",
+            "lines": {
+                "begin": 78
+            }
+        },
+        "content": {
+            "body": "Jinja2 template rewrite recommendation: `{{ mysql_anonymous_hosts.stdout_lines | default([]) }}`."
+        }
+    }
+]

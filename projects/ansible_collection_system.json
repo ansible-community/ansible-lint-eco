@@ -1,0 +1,23 @@
+[
+    {
+        "type": "issue",
+        "check_name": "syntax-check[specific]",
+        "categories": [
+            "core",
+            "unskippable"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/syntax-check/",
+        "severity": "major",
+        "description": "You cannot use loops on 'import_role' statements. You should use 'include_role' instead.",
+        "fingerprint": "c8808137ec0aba7c494cc650429e460d03e9133661759fb26f535d9052804e55",
+        "location": {
+            "path": "roles/mta/tasks/main.yml",
+            "positions": {
+                "begin": {
+                    "line": 1,
+                    "column": 3
+                }
+            }
+        }
+    }
+]

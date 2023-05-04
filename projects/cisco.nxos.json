@@ -1,0 +1,152 @@
+[
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 37, which is not a permitted ignore.",
+        "fingerprint": "dfa509baa0ee85b05bf948eab0f1b18e95856283974f518786f589a092073c16",
+        "location": {
+            "path": "tests/sanity/ignore-2.12.txt",
+            "lines": {
+                "begin": 37
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 38, which is not a permitted ignore.",
+        "fingerprint": "d4c1a2eaa6f505c769697839989603eb325b5f261e8f92f479e3de5d4ade8a72",
+        "location": {
+            "path": "tests/sanity/ignore-2.12.txt",
+            "lines": {
+                "begin": 38
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 2, which is not a permitted ignore.",
+        "fingerprint": "32f2769d13dca93bbcf73893f983634025631c1162d8e218b6367ce0105420a4",
+        "location": {
+            "path": "tests/sanity/ignore-2.13.txt",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 3, which is not a permitted ignore.",
+        "fingerprint": "354ec82aec816d8c62a6222e669981ef36cc5682ea263553bcfb49aca8381905",
+        "location": {
+            "path": "tests/sanity/ignore-2.13.txt",
+            "lines": {
+                "begin": 3
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 2, which is not a permitted ignore.",
+        "fingerprint": "524f74f79616127887582e18ca23966a4f5743895a9960a9dfc6b9ccf509253c",
+        "location": {
+            "path": "tests/sanity/ignore-2.14.txt",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 3, which is not a permitted ignore.",
+        "fingerprint": "3214db63dac07f1cb88f01bb711cc5f1705e8829d2157bd4eb5a059bd01a88a2",
+        "location": {
+            "path": "tests/sanity/ignore-2.14.txt",
+            "lines": {
+                "begin": 3
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 2, which is not a permitted ignore.",
+        "fingerprint": "34883f4802682878c3e506c695cca1f3766ee1435de0d0cfe945f8f8eaf862c0",
+        "location": {
+            "path": "tests/sanity/ignore-2.15.txt",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 3, which is not a permitted ignore.",
+        "fingerprint": "ead29d4d99177124d3fbbbd9cbce08a94138f1aec836a5a627c0f168a92c2bce",
+        "location": {
+            "path": "tests/sanity/ignore-2.15.txt",
+            "lines": {
+                "begin": 3
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 2, which is not a permitted ignore.",
+        "fingerprint": "dbbaeb55be9d89c721adc158b89164ab12f359ee1111d88e4f5907ffa6032181",
+        "location": {
+            "path": "tests/sanity/ignore-2.16.txt",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "sanity[cannot-ignore]",
+        "categories": [],
+        "url": "https://ansible-lint.readthedocs.io/rules/sanity/",
+        "severity": "major",
+        "description": "Ignore file contains pylint:arguments-renamed at line 3, which is not a permitted ignore.",
+        "fingerprint": "e1d60dce619538ee9f6b46fde7e36515313e937ff88ec686bf411808fb133550",
+        "location": {
+            "path": "tests/sanity/ignore-2.16.txt",
+            "lines": {
+                "begin": 3
+            }
+        }
+    }
+]

@@ -1,0 +1,21 @@
+[submodule "projects/bootstrap"]
+	path = projects/bootstrap
+	url = https://github.com/robertdebock/ansible-role-bootstrap
+[submodule "projects/cisco.nxos"]
+	path = projects/cisco.nxos
+	url = https://github.com/ansible-collections/cisco.nxos
+[submodule "projects/ansible_collection_system"]
+	path = projects/ansible_collection_system
+	url = https://github.com/devroles/ansible_collection_system
+[submodule "projects/debops"]
+	path = projects/debops
+	url = https://github.com/debops/debops
+[submodule "projects/ansible-docker-rootless"]
+	path = projects/ansible-docker-rootless
+	url = https://github.com/konstruktoid/ansible-docker-rootless
+[submodule "projects/ansible-role-hardening"]
+	path = projects/ansible-role-hardening
+	url = https://github.com/konstruktoid/ansible-role-hardening
+[submodule "projects/ansible-role-mysql"]
+	path = projects/ansible-role-mysql
+	url = https://github.com/geerlingguy/ansible-role-mysql.git

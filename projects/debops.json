@@ -1,0 +1,23 @@
+[
+    {
+        "type": "issue",
+        "check_name": "syntax-check[specific]",
+        "categories": [
+            "core",
+            "unskippable"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/syntax-check/",
+        "severity": "major",
+        "description": "couldn't resolve module/action 'debops.debops.btrfs_subvolume'. This often indicates a misspelling, missing collection, or incorrect module path.",
+        "fingerprint": "7ea15f9f8612ecc8cd0d071d5d30ec334337d24095a29c20a102e85c330316e8",
+        "location": {
+            "path": "ansible/roles/btrfs/tasks/main.yml",
+            "positions": {
+                "begin": {
+                    "line": 21,
+                    "column": 3
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,7 @@
+# This file contains ignores rule violations for ansible-lint
+handlers/main.yml name[casing]
+meta/main.yml schema[meta]
+tasks/main.yml name[missing]
+tasks/replication.yml ignore-errors
+tasks/secure-installation.yml jinja[spacing]
+tasks/secure-installation.yml no-changed-when

@@ -1,0 +1,42 @@
+[
+    {
+        "type": "issue",
+        "check_name": "jinja[invalid]",
+        "categories": [
+            "formatting"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/jinja/",
+        "severity": "major",
+        "description": "crypt.crypt not supported on Mac OS X/Darwin, install passlib python module. crypt.crypt not supported on Mac OS X/Darwin, install passlib python module",
+        "fingerprint": "0e42d1037a1e224cd1b34dd850aff3422b009ffe4a6059d048e83477e606ac3b",
+        "location": {
+            "path": "molecule/default/verify.yml",
+            "lines": {
+                "begin": 738
+            }
+        },
+        "content": {
+            "body": "Task/Handler: Create test user"
+        }
+    },
+    {
+        "type": "issue",
+        "check_name": "jinja[invalid]",
+        "categories": [
+            "formatting"
+        ],
+        "url": "https://ansible-lint.readthedocs.io/rules/jinja/",
+        "severity": "major",
+        "description": "crypt.crypt not supported on Mac OS X/Darwin, install passlib python module. crypt.crypt not supported on Mac OS X/Darwin, install passlib python module",
+        "fingerprint": "d0794020595db20af39b017bd4170dc5953313445aad56ca178b79693f416070",
+        "location": {
+            "path": "molecule/default/verify.yml",
+            "lines": {
+                "begin": 750
+            }
+        },
+        "content": {
+            "body": "Task/Handler: Change test user password"
+        }
+    }
+]
